@@ -1,15 +1,15 @@
 #!/bin/bash
 
-docker pull r-base
+docker pull bioconductor/release_core2
 
 mkdir ./data/chrs
 
 for script in $(ls ./R/1_process_sp/); do
 	
-	docker run --rm -d \
+	docker run --rm \
 		-v "${PWD}:/anopheles_synt" \
 		-w /anopheles_synt \
-		r-base:latest \
+		bioconductor/release_core2 \
 		Rscript "./R/1_process_sp/"$script
 
 done
