@@ -1,6 +1,4 @@
-library(Biostrings)
-library(dplyr)
-
+lapply(c('dplyr', 'Biostrings'), require, character.only = T)
 
 # load data
 gamDNAStringSet <- readDNAStringSet('./data/source_fasta/gam.fa')

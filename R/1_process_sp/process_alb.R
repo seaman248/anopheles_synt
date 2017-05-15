@@ -1,6 +1,4 @@
-library(Biostrings)
-library(dplyr)
-
+lapply(c('dplyr', 'Biostrings'), require, character.only = T)
 
 # load data
 albDNAStringSet <- readDNAStringSet('./data/source_fasta/alb.fa')
