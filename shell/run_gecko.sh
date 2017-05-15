@@ -11,7 +11,7 @@ for el in $elements; do
 	mkdir './data/gecko_results/'$el
 
 	docker run --rm \
-		-v /Users/seaman/prog/r/anopheles_synt/:/anopheles_synt \
+		-v "${PWD}:/anopheles_synt" \
 		-w '/anopheles_synt/data/gecko_results/'$el \
 		ubuntu:latest \
 		/anopheles_synt/gecko/bin/allVsAll.sh \
