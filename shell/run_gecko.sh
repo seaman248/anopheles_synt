@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd ../
-
 elements=$(ls ./data/chrs)
 
 mkdir ./data/gecko_results
@@ -16,9 +14,10 @@ for el in $elements; do
 		ubuntu:latest \
 		/anopheles_synt/gecko/bin/allVsAll.sh \
 			'/anopheles_synt/data/chrs/'$el \
-			200 45 8 fasta
+			200 65 32 fasta
 
 done
+	
 
 
 
