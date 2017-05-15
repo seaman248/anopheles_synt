@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ../
+
 elements=$(ls ./data/chrs)
 
 mkdir ./data/gecko_results

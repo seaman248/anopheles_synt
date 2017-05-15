@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ../
+
 baseHTTP=https://www.vectorbase.org/download
 
 alb_source=anopheles-albimanus-steclachromosomesaalbs2fagz
