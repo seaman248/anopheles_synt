@@ -20,5 +20,5 @@ lapply(names(gamDNAStringSet), function(chr){
   chrdir <- paste0('./data/chrs/', chr)
   if(!dir.exists(chrdir)){dir.create(chrdir)}
   
-  writeXStringSet(gamDNAStringSet[chr], paste0(chrdir, '/gam_', chr, '.fa'), format = 'fasta')
+  writeXStringSet(gamDNAStringSet[chr], paste0(chrdir, '/gam_', chr, '.fasta'), format = 'fasta')
 })
