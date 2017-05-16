@@ -1,0 +1,14 @@
+All by-Identity Ungapped Fragments (Hits based approach)
+[Abr.98/Apr.2010/Dec.2011 -- <ortrelles@uma.es>
+SeqX filename        : atr_e5.fasta
+SeqY filename        : gam_e5.fasta
+SeqX name            : e5
+SeqY name            : e5
+SeqX length          : 37911302
+SeqY length          : 41963435
+Min.fragment.length  : 200
+Min.Identity         : 65
+Tot Hits (seeds)     : 133241
+Tot Hits (seeds) used: 132215
+Total fragments      : 478
+========================================================

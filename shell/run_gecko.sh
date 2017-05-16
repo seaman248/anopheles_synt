@@ -16,7 +16,7 @@ for el in $elements; do
 		ubuntu:latest \
 		/anopheles_synt/bin/allVsAll.sh \
 			/anopheles_synt/data/chrs/$el \
-			200 65 16 fasta
+			200 65 32 fasta
 
 	docker-machine ssh vmgecko rm -rf ./anopheles_synt/data/gecko_results/$el/intermediateFiles
 

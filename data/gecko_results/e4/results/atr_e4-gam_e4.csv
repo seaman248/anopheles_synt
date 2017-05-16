@@ -1,0 +1,19 @@
+All by-Identity Ungapped Fragments (Hits based approach)
+[Abr.98/Apr.2010/Dec.2011 -- <ortrelles@uma.es>
+SeqX filename        : atr_e4.fasta
+SeqY filename        : gam_e4.fasta
+SeqX name            : e4
+SeqY name            : e4
+SeqX length          : 45351841
+SeqY length          : 53200684
+Min.fragment.length  : 200
+Min.Identity         : 65
+Tot Hits (seeds)     : 170241
+Tot Hits (seeds) used: 170231
+Total fragments      : 3
+========================================================
+Total CSB: 0
+========================================================
+Type,xStart,yStart,xEnd,yEnd,strand(f/r),block,length,score,ident,similarity,%ident,SeqX,SeqY
+Frag,44599986,43053209,44600205,43053428,f,0,220,784,208,0.89,0.95,0,0
+Frag,44599986,28546495,44600205,28546714,f,0,220,808,211,0.92,0.96,0,0
