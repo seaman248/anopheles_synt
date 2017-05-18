@@ -1,0 +1,14 @@
+All by-Identity Ungapped Fragments (Hits based approach)
+[Abr.98/Apr.2010/Dec.2011 -- <ortrelles@uma.es>
+SeqX filename        : atr_e1.fasta
+SeqY filename        : atr_e4.fasta
+SeqX name            : atr_e1
+SeqY name            : atr_e4
+SeqX length          : 1000000
+SeqY length          : 1000000
+Min.fragment.length  : 200
+Min.Identity         : 40
+Tot Hits (seeds)     : 20779445
+Tot Hits (seeds) used: 20778999
+Total fragments      : 28
+========================================================
